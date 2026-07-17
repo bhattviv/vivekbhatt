@@ -15,7 +15,7 @@ export function About() {
 
           <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
             <p>
-              Recently completed a <span className="text-foreground font-semibold">Bachelor of Technology in Computer Science from Birla Institute of Applied Sciences, Bhimtal</span> (GPA: 7.9). I&apos;m an AI/ML Engineer with a passion for building production-grade AI systems and GenAI products that solve real-world problems.
+              I hold a <span className="text-foreground font-semibold">Bachelor of Technology in Computer Science from Birla Institute of Applied Sciences, Bhimtal</span> (GPA: 7.9). I&apos;m an AI/ML Engineer with a passion for building production-grade AI systems and GenAI products that solve real-world problems.
             </p>
 
             <p>
@@ -37,7 +37,7 @@ export function About() {
             {[
               { number: '900+', label: 'DSA Problems Solved' },
               { number: '200+', label: 'Students Engaged' },
-              { number: '5+', label: 'Years Experience' },
+              { number: '1+', label: 'Years Experience' },
             ].map((stat, i) => (
               <div
                 key={i}
