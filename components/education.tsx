@@ -34,7 +34,7 @@ export function Education() {
 
             <div className="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
               {[
-                { label: 'GPA', value: '3.8+' },
+                { label: 'GPA', value: '7.9' },
                 { label: 'Focus Areas', value: 'AI/ML' },
                 { label: 'Activities', value: 'Tech Lead' },
                 { label: 'Recognition', value: 'Top 20 GFG' },

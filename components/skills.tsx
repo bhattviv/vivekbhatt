@@ -12,7 +12,7 @@ export function Skills() {
     },
     {
       category: 'AI/ML',
-      skills: ['Scikit-learn', 'PyTorch', 'NLP', 'OpenCV', 'LangChain', 'LlamaIndex', 'Hugging Face', 'Prompt Engineering', 'RLHF', 'Diffusion Models', 'n8n'],
+      skills: ['Scikit-learn', 'PyTorch', 'NLP', 'OpenCV', 'LangChain', 'LlamaIndex', 'Hugging Face', 'Prompt Engineering', 'RLHF', 'Diffusion Models', 'n8n', 'Probability', 'Statistics', 'Calculus', 'LLM', 'GEN-AI'],
     },
     {
       category: 'Data & Visualization',
@@ -24,7 +24,7 @@ export function Skills() {
     },
     {
       category: 'Web & Cloud',
-      skills: ['React.js', 'Django', 'FastAPI', 'RESTful APIs', 'WebSockets', 'Docker', 'GCP', 'Vertex AI', 'BigQuery', 'Pub/Sub', 'MLflow'],
+      skills: ['React.js', 'Django', 'FastAPI', 'RESTful APIs', 'WebSockets', 'Docker', 'Unit Testing', 'GCP', 'Vertex AI', 'BigQuery', 'Pub/Sub', 'MLflow'],
     },
   ]
 

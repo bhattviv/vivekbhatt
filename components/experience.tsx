@@ -10,10 +10,9 @@ export function Experience() {
       company: 'Darwix AI',
       position: 'AI Engineer Intern',
       period: 'Mar 2026 – May 2026',
-      type: 'Onsite',
+      type: 'Internship Completed',
       achievements: [
-        'Built an AI-powered outbound voice agent for loan pre-qualification with real-time multilingual (EN/HI/Hinglish) support and <2s latency',
-        'Reduced manual calling effort by ~60%, improved accuracy by ~30%, cut decision time by ~40%, reduced costs by ~25%',
+        'Built an AI-powered outbound voice agent for loan pre-qualification, reducing manual calling effort by ~60%, improving accuracy by ~30%, cutting decision time by ~40%, and reducing costs by ~25%',
         'Designed prompt templates and conversation flows for multilingual intent handling',
       ],
     },

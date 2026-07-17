@@ -15,15 +15,15 @@ export function About() {
 
           <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
             <p>
-              I&apos;m an AI/ML Engineer with a passion for building production-grade AI systems and GenAI products that solve real-world problems. Graduated with a Bachelor of Technology in Computer Science from <span className="text-foreground font-semibold">Birla Institute of Applied Sciences, Bhimtal</span>.
+              Recently completed a <span className="text-foreground font-semibold">Bachelor of Technology in Computer Science from Birla Institute of Applied Sciences, Bhimtal</span> (GPA: 7.9). I&apos;m an AI/ML Engineer with a passion for building production-grade AI systems and GenAI products that solve real-world problems.
             </p>
 
             <p>
-              Currently working as an <span className="text-foreground font-semibold">AI Engineer Intern at Darwix AI</span>, where I build outbound voice agents and GenAI-powered automation systems. My previous experience includes:
+              I worked as an <span className="text-foreground font-semibold">AI Engineer Intern at Darwix AI</span>, building outbound voice agents and GenAI-powered automation systems. My previous experience includes:
             </p>
 
             <ul className="space-y-3 ml-6 list-disc">
-              <li><span className="text-foreground font-semibold">GlobalLogic</span> - Built RAG-based Q&A systems with vector embeddings and LangChain</li>
+              <li><span className="text-foreground font-semibold">GlobalLogic</span> (A Hitachi Group Company) - Built RAG-based Q&A systems with vector embeddings and LangChain</li>
               <li><span className="text-foreground font-semibold">Infosys Springboard</span> - Developed AI voice assistants for healthcare applications</li>
               <li><span className="text-foreground font-semibold">AICTE</span> - Created ML models for disease prediction with up to 95% accuracy</li>
             </ul>
