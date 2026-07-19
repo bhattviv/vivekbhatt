@@ -20,21 +20,26 @@ export function About() {
 
           <div className="space-y-6 text-lg text-muted-foreground/90 leading-relaxed">
             <p className="animate-fade-in-up fade-in-0">
-              I hold a <span className="text-foreground font-semibold">Bachelor of Technology in Computer Science from Birla Institute of Applied Sciences, Bhimtal</span> (GPA: 7.9). I&apos;m an AI/ML Engineer with a passion for building production-grade AI systems and GenAI products that solve real-world problems.
+              I&apos;m an <span className="text-foreground font-semibold">AI/ML Engineer</span> specializing in building production-grade AI systems, GenAI products, and automation pipelines. I hold a <span className="text-foreground font-semibold">Bachelor of Technology in Computer Science from Birla Institute of Applied Sciences, Bhimtal</span> (GPA: 7.9, 2022-2026).
             </p>
 
             <p className="animate-fade-in-up fade-in-1">
-              I worked as an <span className="text-foreground font-semibold">AI Engineer Intern at Darwix AI</span>, building outbound voice agents and GenAI-powered automation systems. My previous experience includes:
+              My passion lies in engineering scalable AI solutions—from large language models and RAG pipelines to voice-based AI agents and ML model optimization. I also create AI-generated video content at scale, combining technical expertise with creative automation through platforms like n8n, Kling AI, and LangChain.
+            </p>
+
+            <p className="animate-fade-in-up fade-in-2">
+              I&apos;ve worked across diverse AI/ML domains:
             </p>
 
             <ul className="space-y-3 ml-6 list-disc animate-fade-in-up fade-in-2">
-              <li><span className="text-foreground font-semibold">GlobalLogic</span> (A Hitachi Group Company) - Built RAG-based Q&A systems with vector embeddings and LangChain</li>
-              <li><span className="text-foreground font-semibold">Infosys Springboard</span> - Developed AI voice assistants for healthcare applications</li>
-              <li><span className="text-foreground font-semibold">AICTE</span> - Created ML models for disease prediction with up to 95% accuracy</li>
+              <li><span className="text-foreground font-semibold">Voice AI & GenAI</span> - Built multilingual outbound voice agents and healthcare AI assistants</li>
+              <li><span className="text-foreground font-semibold">Retrieval-Augmented Generation</span> - Implemented RAG pipelines integrating vector embeddings, LangChain, and LLMs</li>
+              <li><span className="text-foreground font-semibold">ML/Predictive Analytics</span> - Developed high-accuracy disease prediction models and demand forecasting systems</li>
+              <li><span className="text-foreground font-semibold">AI Content Automation</span> - Created an end-to-end pipeline generating 200+ AI videos via script, TTS, and video synthesis</li>
             </ul>
 
             <p className="animate-fade-in-up fade-in-3">
-              I&apos;ve solved 900+ DSA problems and hold a <span className="text-accent font-semibold">Google Cloud Professional ML Engineer</span> certification. I&apos;m driven by the challenge of optimizing AI systems for performance and reliability at scale.
+              I hold a <span className="text-accent font-semibold">Google Cloud Professional ML Engineer</span> certification, have solved 900+ DSA problems, and ranked in the top 20 on GeeksforGeeks. I&apos;m open to opportunities that leverage AI to solve real-world challenges at scale.
             </p>
           </div>
 

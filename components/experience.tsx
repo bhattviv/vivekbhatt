@@ -10,10 +10,10 @@ export function Experience() {
       company: 'Darwix AI',
       position: 'AI Engineer Intern',
       period: 'Mar 2026 – May 2026',
-      type: 'Internship Completed',
+      type: 'Onsite',
       achievements: [
-        'Built an AI-powered outbound voice agent for loan pre-qualification, reducing manual calling effort by ~60%, improving accuracy by ~30%, cutting decision time by ~40%, and reducing costs by ~25%',
-        'Designed prompt templates and conversation flows for multilingual intent handling',
+        'Created an AI-powered outbound voice agent for loan pre-qualification with real-time multilingual support (EN/HI/Hinglish)',
+        'Reduced manual calling effort by ~60%, improved accuracy by ~30%, cut decision time by ~40%, and reduced costs by ~25%',
       ],
     },
     {
@@ -22,8 +22,8 @@ export function Experience() {
       period: 'Feb 2025 – Apr 2025',
       type: 'Remote',
       achievements: [
-        'Built an AI voice assistant (Azure OpenAI, NLP) integrated with a React Native mobile app for patient-nurse communication',
-        'Improved response efficiency by 30-40% in a healthcare setting',
+        'Built an AI-intelligent voice assistant using Azure OpenAI and NLP, integrated with a React/React Native mobile app for patient-nurse communication',
+        'Designed to improve request prioritization and boost response efficiency by an estimated 20-30% in healthcare settings',
       ],
     },
     {
@@ -32,8 +32,8 @@ export function Experience() {
       period: 'Nov 2024 – Apr 2025',
       type: 'Remote',
       achievements: [
-        'Built ML models for Heart Disease, Parkinson\'s, and Diabetes prediction achieving up to 95% accuracy on 1,000+ patient records',
-        'Improved model reliability by 15% through preprocessing',
+        'Created ML models for Heart Disease, Parkinson\'s, and Diabetes prediction achieving up to 95% accuracy on 1,000+ patient records',
+        'Designed end-to-end ML pipeline with data preprocessing, model training, and evaluation',
       ],
     },
     {
@@ -42,8 +42,8 @@ export function Experience() {
       period: 'Jul 2024 – Sept 2024',
       type: 'Hybrid',
       achievements: [
-        'Built a RAG-based intelligent Q&A system integrating vector embeddings and LangChain',
-        'Improved domain-specific retrieval efficiency by 20% and response accuracy by 15% using GPT4All',
+        'Implemented a RAG pipeline integrating vector embeddings and LangChain, improving domain-specific knowledge retrieval efficiency by 20%',
+        'Combined GPT4All with LangChain to improve conversational interface, resulting in 15% improvement in model response accuracy',
       ],
     },
   ]

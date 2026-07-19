@@ -7,24 +7,28 @@ export function Skills() {
 
   const skillCategories = [
     {
-      category: 'Languages',
-      skills: ['Python', 'SQL', 'HTML/CSS', 'JavaScript'],
+      category: 'Programming Languages',
+      skills: ['Python', 'SQL', 'HTML/CSS', 'JavaScript', 'Linux'],
     },
     {
-      category: 'AI/ML',
-      skills: ['Scikit-learn', 'PyTorch', 'NLP', 'OpenCV', 'LangChain', 'LlamaIndex', 'Hugging Face', 'Prompt Engineering', 'RLHF', 'Diffusion Models', 'n8n', 'Probability', 'Statistics', 'Calculus', 'LLM', 'GEN-AI'],
+      category: 'Data Analysis & Visualization',
+      skills: ['Power BI', 'Tableau', 'Advanced MS Excel', 'Pandas', 'NumPy', 'Matplotlib'],
     },
     {
-      category: 'Data & Visualization',
-      skills: ['Power BI', 'Tableau', 'Pandas', 'NumPy', 'Matplotlib', 'Advanced MS Excel'],
+      category: 'Relational/NoSQL Databases',
+      skills: ['MySQL', 'MongoDB', 'Supabase', 'SQLite', 'Vector Databases'],
     },
     {
-      category: 'Databases',
-      skills: ['MySQL', 'MongoDB', 'Redis', 'SQLite', 'Pinecone', 'FAISS'],
+      category: 'Web Technologies & Backend',
+      skills: ['React.js', 'Django', 'FastAPI', 'RESTful APIs', 'WebSockets', 'Docker', 'Unit Testing'],
     },
     {
-      category: 'Web & Cloud',
-      skills: ['React.js', 'Django', 'FastAPI', 'RESTful APIs', 'WebSockets', 'Docker', 'Unit Testing', 'GCP', 'Vertex AI', 'BigQuery', 'Pub/Sub', 'MLflow'],
+      category: 'AI/ML & GenAI',
+      skills: ['LangChain', 'LangGraph', 'GEN-AI', 'LLM', 'Scikit-learn', 'PyTorch', 'NLP', 'Hugging Face', 'Prompt Engineering', 'OpenCV', 'n8n', 'Probability', 'Statistics', 'Calculus'],
+    },
+    {
+      category: 'Cloud & Infrastructure',
+      skills: ['GCP', 'Vertex AI', 'BigQuery', 'Pub/Sub', 'MLflow'],
     },
   ]
 

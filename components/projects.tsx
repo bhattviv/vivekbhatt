@@ -7,40 +7,40 @@ export function Projects() {
 
   const projects = [
     {
-      title: 'Outbound Voice Agent',
-      description: 'AI-powered multilingual (EN/HI/Hinglish) voice agent for loan pre-qualification with sub-2s latency, cutting manual calling effort by 60%.',
-      tags: ['LangChain', 'GenAI APIs', 'NLU', 'Prompt Engineering'],
-      github: '#',
-    },
-    {
-      title: 'Voice-Based Patient Call System',
-      description: 'AI voice assistant with mobile app integration for patient-nurse communication in healthcare.',
-      tags: ['Azure OpenAI', 'NLP', 'React Native'],
-      github: '#',
-    },
-    {
-      title: 'Intelligent RAG Q&A System',
-      description: 'Retrieval-Augmented Generation pipeline with vector embeddings for domain-specific knowledge retrieval.',
-      tags: ['LangChain', 'GPT4All', 'Vector Embeddings'],
-      github: '#',
-    },
-    {
       title: 'Disease Outbreak Prediction',
-      description: 'ML models for Heart Disease, Parkinson\'s, and Diabetes prediction with up to 95% accuracy on 1,000+ records.',
-      tags: ['Scikit-learn', 'Python', 'Preprocessing'],
-      github: '#',
-    },
-    {
-      title: 'AI-Based Attendance Management',
-      description: 'Automated attendance system using facial recognition for real-time student verification, targeting 95%+ accuracy.',
-      tags: ['Computer Vision', 'APIs', 'Web App'],
-      github: '#',
+      description: 'Built ML models for Heart Disease, Parkinson\'s, and Diabetes prediction achieving up to 95% accuracy on 1,000+ patient records, enabling early diagnosis and reducing manual assessment time by 40%.',
+      tags: ['Scikit-learn', 'Python', 'ML Model Training'],
+      github: 'https://github.com/bhattviv',
     },
     {
       title: 'Resume Tracer',
-      description: 'AI-driven resume parsing and analytics app extracting key details from 100+ resumes using NLP and regex, cutting manual screening time by 60%.',
+      description: 'AI-driven resume parsing and analytics web app that extracts key details (skills, experience, keywords) from 100+ resumes using NLP and regex, reducing manual screening time by over 60%.',
       tags: ['Python', 'Streamlit', 'NLP', 'Regex'],
-      github: '#',
+      github: 'https://github.com/bhattviv',
+    },
+    {
+      title: 'Demand Forecasting for E-Commerce',
+      description: 'Developed a sales forecasting model leveraging historical sales data and advanced analytics, leading to 25% improvement in overall inventory accuracy levels company-wide.',
+      tags: ['Data Analytics', 'Python', 'Time Series'],
+      github: 'https://github.com/bhattviv',
+    },
+    {
+      title: 'Intelligent RAG Q&A System',
+      description: 'Implemented a RAG pipeline integrating vector embeddings and LangChain for domain-specific knowledge retrieval, improving efficiency by 20%. Combined GPT4All with LangChain for 15% improvement in model response accuracy.',
+      tags: ['LangChain', 'GPT4All', 'Vector Embeddings', 'GenAI'],
+      github: 'https://github.com/bhattviv',
+    },
+    {
+      title: 'Voice-Based Patient Call System',
+      description: 'Built an AI-intelligent voice assistant using Azure OpenAI and NLP, integrated with a mobile app (React/React Native) for patient-nurse communication, designed to improve request prioritization and boost response efficiency by 20-30% in healthcare.',
+      tags: ['Azure OpenAI', 'NLP', 'React Native', 'Healthcare'],
+      github: 'https://github.com/bhattviv',
+    },
+    {
+      title: 'Outbound Voice Agent',
+      description: 'Created an AI-powered outbound voice agent for loan pre-qualification with real-time multilingual support (EN/HI/Hinglish), reducing manual calling effort by 60%, improving accuracy by 30%, reducing decision time by 40%, and cutting costs by 25%.',
+      tags: ['Voice AI', 'LLM', 'GenAI', 'NLU'],
+      github: 'https://github.com/bhattviv',
     },
   ]
 

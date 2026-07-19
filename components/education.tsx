@@ -34,18 +34,31 @@ export function Education() {
               </div>
             </div>
 
-            <div className="p-4 rounded-lg bg-accent/5 border border-accent/20">
-              <p className="text-muted-foreground/90 leading-relaxed">
-                Completed rigorous coursework in computer science fundamentals, algorithms, data structures, machine learning, artificial intelligence, and software engineering. Actively involved in campus technical communities and competitive programming.
-              </p>
+            <div className="space-y-4">
+              <div className="p-4 rounded-lg bg-accent/5 border border-accent/20">
+                <p className="text-muted-foreground/90 leading-relaxed">
+                  Rigorous coursework in computer science fundamentals, algorithms, data structures, machine learning, artificial intelligence, and software engineering. Actively involved in hackathons, competitive programming, and technical campus initiatives.
+                </p>
+              </div>
+
+              <div className="border-t border-accent/10 pt-4 space-y-3">
+                <h4 className="text-sm font-semibold text-accent uppercase">Co-Curricular Achievements</h4>
+                <ul className="space-y-2 text-muted-foreground/90">
+                  <li>• Participated in 2 college-level hackathons, developed real-world solutions under tight deadlines</li>
+                  <li>• Solved 900+ DSA problems across LeetCode, GFG, and CodeChef</li>
+                  <li>• Participated in 50+ coding contests to sharpen competitive programming skills</li>
+                  <li>• Ranked among top 20 students on GeeksforGeeks platform</li>
+                  <li>• Google Cloud Professional Machine Learning Engineer certification (25+ hands-on labs)</li>
+                </ul>
+              </div>
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-4 border-t border-accent/10">
               {[
                 { label: 'GPA', value: '7.9' },
                 { label: 'Focus Areas', value: 'AI/ML' },
-                { label: 'Activities', value: 'Tech Lead' },
-                { label: 'Recognition', value: 'Top 20 GFG' },
+                { label: 'Competitions', value: '50+ Contests' },
+                { label: 'DSA Solved', value: '900+' },
               ].map((item, i) => (
                 <div key={i} className="p-4 rounded-lg bg-gradient-to-br from-accent/10 to-blue-500/5 border border-accent/20 hover:border-accent/40 transition-all duration-300">
                   <div className="text-xs text-muted-foreground/70 uppercase tracking-widest font-semibold mb-2">{item.label}</div>
