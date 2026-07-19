@@ -26,7 +26,6 @@ export function ContentCreator() {
   const contentStats = [
     { number: '200+', label: 'Videos Generated' },
     { number: '4', label: 'AI Tools Used' },
-    { number: '50K+', label: 'Total Reach' },
   ]
 
   const tools = ['Kling AI', 'CapCut', 'OpenRouter', 'Gemini']
@@ -39,9 +38,20 @@ export function ContentCreator() {
             <span className="text-sm text-accent-warm font-medium">Creative Side</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold">
-            AI Content <span className="text-accent-warm">Creator</span>
+            YouTube Shorts & Reels AI <span className="text-accent-warm">Pipeline</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl text-lg">Building an AI-powered content pipeline that automates video creation from concept to publication.</p>
+          <a
+            href="https://youtube.com/@universe_truth_2026?si=qcUKpq_FwXl1jg0X"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 mt-2 text-accent-warm hover:text-accent-warm/80 transition-colors font-semibold"
+          >
+            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+            Visit Channel
+          </a>
         </div>
 
         {/* Featured Project */}

@@ -30,7 +30,7 @@ export function Education() {
               </div>
               <div className="text-right space-y-2">
                 <p className="text-lg font-semibold text-foreground">Graduated 2026</p>
-                <div className="inline-block px-3 py-1 rounded-full bg-accent/10 border border-accent/30 text-sm text-accent font-medium">Ongoing</div>
+                <div className="inline-block px-3 py-1 rounded-full bg-green-500/10 border border-green-500/30 text-sm text-green-400 font-medium">Completed</div>
               </div>
             </div>
 

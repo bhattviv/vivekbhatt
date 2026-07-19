@@ -40,7 +40,7 @@ export function Experience() {
       company: 'GlobalLogic (A Hitachi Group Company)',
       position: 'AI/ML Intern',
       period: 'Jul 2024 – Sept 2024',
-      type: 'Hybrid',
+      type: 'Noida Onsite',
       achievements: [
         'Implemented a RAG pipeline integrating vector embeddings and LangChain, improving domain-specific knowledge retrieval efficiency by 20%',
         'Combined GPT4All with LangChain to improve conversational interface, resulting in 15% improvement in model response accuracy',
@@ -56,7 +56,7 @@ export function Experience() {
             <span className="text-sm text-accent font-medium">Professional Journey</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold">
-            <span className="text-accent">Experience</span>
+            <span className="text-accent">Internship Experience</span>
           </h2>
         </div>
 

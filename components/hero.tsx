@@ -34,6 +34,17 @@ export function Hero() {
 
       <div className="max-w-4xl mx-auto text-center space-y-8 relative z-10">
         <div className="space-y-8">
+          {/* Profile Photo */}
+          <div className="flex justify-center mb-6 animate-blur-in delay-0">
+            <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-2 border-accent/30 shadow-lg shadow-accent/20 hover-glow">
+              <img
+                src="/profile.jpg"
+                alt="Vivek Bhatt"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+
           {/* Welcome badge with blur-in animation */}
           <div className="inline-block px-4 py-2 rounded-full border border-accent/30 bg-accent/5 backdrop-blur-sm mb-4 animate-blur-in delay-0 hover-glow">
             <span className="text-sm text-accent font-medium">Welcome to my portfolio</span>
