@@ -32,6 +32,12 @@ export function Skills() {
     },
   ]
 
+  const certifications = [
+    { title: 'Machine Learning and AI', issuer: 'Google Cloud Training Online' },
+    { title: 'Data Analysis Using Python', issuer: 'IBM' },
+    { title: 'Foundations of Prompt Engineering', issuer: 'Amazon' },
+  ]
+
   return (
     <section ref={ref} className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
@@ -76,21 +82,15 @@ export function Skills() {
         <div className="mt-16 premium-card">
           <div className="flex items-center gap-2 mb-6">
             <span className="w-3 h-3 rounded-full bg-gradient-to-r from-accent to-blue-400"></span>
-            <h3 className="text-xl font-bold text-accent">Certifications & Achievements</h3>
+            <h3 className="text-xl font-bold text-accent">Certifications</h3>
           </div>
           <ul className="space-y-4 text-muted-foreground">
-            {[
-              { title: 'Google Cloud Professional Machine Learning Engineer', desc: 'Completed 25+ hands-on labs' },
-              { title: '900+ DSA Problems Solved', desc: 'across LeetCode, GFG, and CodeChef' },
-              { title: 'Top 20 on GeeksforGeeks', desc: 'in college' },
-              { title: 'Google Student Ambassador & Campus Mantri', desc: 'Engaged 200+ students' },
-              { title: 'Innovative Coordinator', desc: 'Selected from a batch of 180 peers' },
-            ].map((item, idx) => (
+            {certifications.map((cert, idx) => (
               <li key={idx} className="flex items-start gap-4 group/item p-3 rounded-lg hover:bg-accent/5 transition-all duration-300">
-                <span className="text-accent mt-1 text-lg group-hover/item:scale-125 transition-transform duration-300">✦</span>
+                <span className="text-accent mt-1 text-lg group-hover/item:scale-125 transition-transform duration-300">📜</span>
                 <div>
-                  <span className="text-foreground font-semibold group-hover/item:text-accent transition-colors duration-300">{item.title}</span>
-                  <p className="text-sm text-muted-foreground/70 mt-1">— {item.desc}</p>
+                  <span className="text-foreground font-semibold group-hover/item:text-accent transition-colors duration-300">{cert.title}</span>
+                  <p className="text-sm text-muted-foreground/70 mt-1">— {cert.issuer}</p>
                 </div>
               </li>
             ))}

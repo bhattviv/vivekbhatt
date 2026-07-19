@@ -2,8 +2,7 @@
 
 export function Hero() {
   const handleDownloadResume = () => {
-    // Create a resume link - you can replace this with your actual resume URL from a storage service
-    const resumeUrl = 'https://drive.google.com/file/d/YOUR_RESUME_FILE_ID/view?usp=sharing'
+    const resumeUrl = 'https://drive.google.com/file/d/1cX85uNehN5jrxu1THLwQqulFmPytxuyy/view?usp=sharing'
     window.open(resumeUrl, '_blank')
   }
 

@@ -10,37 +10,37 @@ export function Projects() {
       title: 'Disease Outbreak Prediction',
       description: 'Built ML models for Heart Disease, Parkinson\'s, and Diabetes prediction achieving up to 95% accuracy on 1,000+ patient records, enabling early diagnosis and reducing manual assessment time by 40%.',
       tags: ['Scikit-learn', 'Python', 'ML Model Training'],
-      github: 'https://github.com/bhattviv',
+      github: 'https://github.com/bhattviv/Desease_Prediction_System',
     },
     {
       title: 'Resume Tracer',
       description: 'AI-driven resume parsing and analytics web app that extracts key details (skills, experience, keywords) from 100+ resumes using NLP and regex, reducing manual screening time by over 60%.',
       tags: ['Python', 'Streamlit', 'NLP', 'Regex'],
-      github: 'https://github.com/bhattviv',
+      github: 'https://github.com/bhattviv/Resume_Tracer',
     },
     {
       title: 'Demand Forecasting for E-Commerce',
       description: 'Developed a sales forecasting model leveraging historical sales data and advanced analytics, leading to 25% improvement in overall inventory accuracy levels company-wide.',
       tags: ['Data Analytics', 'Python', 'Time Series'],
-      github: 'https://github.com/bhattviv',
+      github: 'https://github.com/bhattviv/Sales_Forecasting_For_E-commerce',
     },
     {
       title: 'Intelligent RAG Q&A System',
       description: 'Implemented a RAG pipeline integrating vector embeddings and LangChain for domain-specific knowledge retrieval, improving efficiency by 20%. Combined GPT4All with LangChain for 15% improvement in model response accuracy.',
       tags: ['LangChain', 'GPT4All', 'Vector Embeddings', 'GenAI'],
-      github: 'https://github.com/bhattviv',
+      github: 'https://github.com/bhattviv/Simple_RAG_Applicaton',
     },
     {
       title: 'Voice-Based Patient Call System',
       description: 'Built an AI-intelligent voice assistant using Azure OpenAI and NLP, integrated with a mobile app (React/React Native) for patient-nurse communication, designed to improve request prioritization and boost response efficiency by 20-30% in healthcare.',
       tags: ['Azure OpenAI', 'NLP', 'React Native', 'Healthcare'],
-      github: 'https://github.com/bhattviv',
+      github: 'https://github.com/bhattviv/voice-based-patient-call-system',
     },
     {
       title: 'Outbound Voice Agent',
       description: 'Created an AI-powered outbound voice agent for loan pre-qualification with real-time multilingual support (EN/HI/Hinglish), reducing manual calling effort by 60%, improving accuracy by 30%, reducing decision time by 40%, and cutting costs by 25%.',
       tags: ['Voice AI', 'LLM', 'GenAI', 'NLU'],
-      github: 'https://github.com/bhattviv',
+      github: 'https://github.com/bhattviv/Voice_Agent',
     },
   ]
 
