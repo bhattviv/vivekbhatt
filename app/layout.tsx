@@ -6,6 +6,27 @@ export const metadata: Metadata = {
   title: 'Vivek Bhatt | AI/ML Engineer',
   description: 'AI/ML Engineer building GenAI products, voice agents & automation pipelines. Explore my portfolio and projects.',
   generator: 'v0.app',
+  openGraph: {
+    title: 'Vivek Bhatt - AI/ML Engineer',
+    description: 'Building production-grade AI systems, GenAI products, voice agents, and automation pipelines. Expertise in LLMs, RAG, and machine learning.',
+    type: 'website',
+    url: 'https://vivekbhatt.vercel.app',
+    siteName: 'Vivek Bhatt Portfolio',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1280,
+        height: 640,
+        alt: 'Vivek Bhatt - AI/ML Engineer Portfolio',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Vivek Bhatt - AI/ML Engineer',
+    description: 'Building production-grade AI systems, GenAI products, voice agents, and automation pipelines.',
+    images: ['/og-image.png'],
+  },
   icons: {
     icon: [
       {
