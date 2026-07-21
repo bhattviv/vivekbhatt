@@ -38,10 +38,11 @@ export function Projects() {
     },
     {
       title: 'Outbound Voice Agent',
-      description: 'Created an AI-powered outbound voice agent for loan pre-qualification with real-time multilingual support (EN/HI/Hinglish), reducing manual calling effort by 60%, improving accuracy by 30%, reducing decision time by 40%, and cutting costs by 25%.',
+      description: 'Created an AI-powered outbound voice agent for loan pre-qualification with real-time multilingual support (EN/HI/Hinglish)\n➔ Reduced manual calling effort by ~60%, improved accuracy by ~30%, cut decision time by ~40%, and reduced costs by ~25%',
       tags: ['Voice AI', 'LLM', 'GenAI', 'NLU'],
       github: 'https://github.com/bhattviv/Voice_Agent',
     },
+
   ]
 
   return (

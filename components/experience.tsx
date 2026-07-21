@@ -12,8 +12,8 @@ export function Experience() {
       period: 'Mar 2026 – May 2026',
       type: 'Onsite',
       achievements: [
-        'Created an AI-powered outbound voice agent for loan pre-qualification with real-time multilingual support (EN/HI/Hinglish)',
-        'Reduced manual calling effort by ~60%, improved accuracy by ~30%, cut decision time by ~40%, and reduced costs by ~25%',
+        'Built and scaled an AI voice screening platform from a single Sales Hiring Agent into a multi-role hiring framework (5+ roles), integrating Vapi, Twilio, and Django REST backends for real-time candidate evaluation and automated call routing',
+        'Achieved 90%+ call reliability with automated call routing, cutting manual recruiter screening effort by ~55%',
       ],
     },
     {
