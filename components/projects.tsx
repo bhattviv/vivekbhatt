@@ -36,12 +36,7 @@ export function Projects() {
       tags: ['Azure OpenAI', 'NLP', 'React Native', 'Healthcare'],
       github: 'https://github.com/bhattviv/voice-based-patient-call-system',
     },
-    {
-      title: 'Outbound Voice Agent',
-      description: 'Created an AI-powered outbound voice agent for loan pre-qualification with real-time multilingual support (EN/HI/Hinglish), reducing manual calling effort by 60%, improving accuracy by 30%, reducing decision time by 40%, and cutting costs by 25%.',
-      tags: ['Voice AI', 'LLM', 'GenAI', 'NLU'],
-      github: 'https://github.com/bhattviv/Voice_Agent',
-    },
+
   ]
 
   return (
